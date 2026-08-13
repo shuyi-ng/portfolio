@@ -102,9 +102,7 @@ export default function Home() {
             {diySteps.map(([number, title, description]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{description}</p></article>)}
           </div>
           <div className="studio-assets">
-            <div className="product-placeholder" role="img" aria-label="Placeholder for photos of Shuyi's DIY creations"><span aria-hidden="true">✦</span><p>DIY product photos</p><small>Add your favourite product shots here</small></div>
-            <div className="video-placeholder" role="img" aria-label="Placeholder for screenshots of Shuyi's TikTok promotional videos"><span aria-hidden="true">▶</span><p>TikTok video stills</p><small>Add promotional video screenshots here</small></div>
-            <div className="studio-links"><p className="small-heading">Visit the project</p><a className="placeholder-link" href="#studio" aria-label="TikTok Shop link placeholder">TikTok Shop link <span aria-hidden="true">&nbsp;</span></a><a className="placeholder-link" href="#studio" aria-label="TikTok profile link placeholder">TikTok profile <span aria-hidden="true">&nbsp;</span></a><p className="placeholder-note">Replace these placeholders with your live links when ready.</p></div>
+            <div className="studio-links"><p className="small-heading">Visit the project</p><a className="placeholder-link" href="https://www.tiktok.com/@just_smileee3" aria-label="TikTok Shop link placeholder">TikTok Shop link <span aria-hidden="true">&nbsp;</span></a></div>
           </div>
         </div>
       </section>
