@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CurrentYear from "../components/CurrentYear";
 
 const skills = ["React", "Next.js", "JavaScript", "HTML5 & CSS3", "PHP", "MySQL", "Figma", "Git & GitHub"];
 
@@ -157,7 +158,7 @@ export default function Home() {
 
       <section className="section education"><p className="section-label">08 / Education</p><div className="section-content education-list"><div><span>2020</span><h3>Specialist Diploma in Information Systems Development</h3><p>Nanyang Polytechnic</p></div><div><span>2017</span><h3>Diploma in Mobile Software Development</h3><p>Republic Polytechnic</p></div><div><span>Certifications</span><h3>Professional Scrum Master I (PSM I)</h3><p>Also certified in SEO, Google Ads and Data Analytics.</p></div></div></section>
 
-      <section className="contact" id="contact"><p className="eyebrow">Have an idea worth building?</p><h2>Let&apos;s create something <em>useful.</em></h2><div className="contact-links"><a href="mailto:shuyi.ng@outlook.sg">shuyi.ng@outlook.sg <span aria-hidden="true">&rarr;</span></a><a href="https://www.linkedin.com/in/shuyi-ng-204aab416" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">&rarr;</span></a><Link href="/admin">Administrative &amp; operations profile <span aria-hidden="true">&rarr;</span></Link></div><p className="footer-note">&copy; {new Date().getFullYear()} Shuyi Ng</p></section>
+      <section className="contact" id="contact"><p className="eyebrow">Have an idea worth building?</p><h2>Let&apos;s create something <em>useful.</em></h2><div className="contact-links"><a href="mailto:shuyi.ng@outlook.sg">shuyi.ng@outlook.sg <span aria-hidden="true">&rarr;</span></a><a href="https://www.linkedin.com/in/shuyi-ng-204aab416" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">&rarr;</span></a><Link href="/admin">Administrative &amp; operations profile <span aria-hidden="true">&rarr;</span></Link></div><p className="footer-note"><CurrentYear /></p></section>
     </main>
   );
 }

@@ -132,6 +132,7 @@ a:focus-visible { outline: 3px solid var(--sage); outline-offset: 4px; }
 .admin-hero::after { background: var(--lilac); bottom: -180px; height: 380px; right: 14%; width: 380px; }
 .admin-hero > * { position: relative; z-index: 1; }
 .admin-hero h1, .admin-section h2, .admin-contact h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; letter-spacing: -.07em; line-height: .98; }
+.admin-competencies ul{ list-style-type: disc;padding-left: 15px;}
 .admin-hero h1 { font-size: clamp(3.5rem, 8vw, 7.25rem); margin: 25px 0 28px; max-width: 840px; }
 .admin-hero .hero-content { max-width: 890px; position: relative; }
 .admin-hero .hero-copy { color: #695762; font-size: 1.08rem; line-height: 1.7; max-width: 560px; }

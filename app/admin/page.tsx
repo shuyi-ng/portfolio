@@ -63,7 +63,7 @@ export default function AdminPage() {
 
       <section className="admin-section admin-tools">
         <p className="section-label">03 / Core competencies</p>
-        <div className="admin-grid"><h2>Admin support built on organisation, communication, and steady follow-through.</h2><div><p>I am especially strong in keeping work moving behind the scenes: making priorities clearer, helping people stay aligned, and making sure important details do not get missed.</p><p>My experience has also strengthened my ability to support busy teams with documentation, workflow coordination, and practical problem-solving in environments where expectations shift quickly.</p><div className="admin-competencies" aria-label="core competencies">{competencies.map((item) => <span key={item}>{item}</span>)}</div></div></div>
+        <div className="admin-grid"><h2>Admin support built on organisation, communication, and steady follow-through.</h2><div><p>I am especially strong in keeping work moving behind the scenes: making priorities clearer, helping people stay aligned, and making sure important details do not get missed.</p><p>My experience has also strengthened my ability to support busy teams with documentation, workflow coordination, and practical problem-solving in environments where expectations shift quickly.</p><div className="admin-competencies" aria-label="core competencies"><ul>{competencies.map((item) => <li key={item}>{item}</li>)}</ul></div></div></div>
       </section>
 
       <section className="admin-section admin-tools">
